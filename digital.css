@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:black;
+    font-family:Arial;
+    overflow:hidden;
+}
+
+.clock-container{
+    text-align:center;
+    color:#00e5ff;
+}
+
+#date{
+    font-size:20px;
+    letter-spacing:4px;
+    margin-bottom:20px;
+    color:white;
+}
+
+#clock{
+    font-size:90px;
+    font-weight:bold;
+    text-shadow:
+    0 0 10px #2a666e,
+    0 0 20px #2a666e,
+    0 0 40px #2a666e;
+}
+
+p{
+    margin-top:20px;
+    color:white;
+    letter-spacing:5px;
+}
